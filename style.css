@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(233,223,148,1) 91%);
+}
+.nav ul {
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,161,1) 0%, rgba(252,176,69,1) 100%);
+    padding: 5px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+a{
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+}
+li{
+    padding: 20px 15px 15px 0px;
+    margin: auto;
+    font-size: x-large;
+    font-weight: 600;   
+}
+.nav ul li a img{
+    width: 50px;
+    height: 50px;
+    
+    
+    
+}
+.image img{
+    position: relative;
+    padding-left: 3%;
+    float: right;
+    width: 800px;
+    height: auto;
+}
+.text{
+    position: relative;
+    padding-top: 10%;
+}
+.text h1{
+    padding: 50px;
+    padding-left: 12%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size:xx-large;
+    letter-spacing: 11px;
+}
+.text p{
+    position: relative;
+    padding-left: 4%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    
+}
+.btn{
+    
+    position: relative;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,161,1) 0%, rgba(252,176,69,1) 100%);
+    border: none;
+    color: white;
+    margin: 50px;
+    padding-left : 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: auto;
+    height: auto;
+}
+@media (min-width:801px){
+    .nav ul{
+        display: flex;
+        
+    }
+    li{
+        font-size: auto;
+    }
+
+    
+}
